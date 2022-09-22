@@ -1,6 +1,7 @@
-@extends('forntend')
-@section('content')
-
+<x-forntend.master>
+<x-slot:title>
+       CARD LIST
+    </x-slot>
 <div class="main-section text-center">
             <div class="card">
                 <div class="card-header bg-black"></div>
@@ -177,4 +178,4 @@
           
 <!-- ................................ -->
 <!-- fooder//////////////////////////////// -->
-@endsection
+</x-forntend.master>

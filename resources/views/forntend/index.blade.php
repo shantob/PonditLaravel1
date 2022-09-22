@@ -1,12 +1,17 @@
-@extends('forntend')
-@section('content')
 
+
+
+<x-forntend.master>
+<x-slot:title>
+       HOME
+    </x-slot>
 <div class="row">
     <div class="main-content col-md-12">
         <div class="row">
             <div class="col-md-4">
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1619533394727-57d522857f89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW9kZWwlMjBtYW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class=" w-100" height="500">
+                <div class="card h-500 text-center">
+                    <img src="https://images-platform.99static.com//y0rb96b9CUsj6F8lqnkVOPlBuyY=/0x0:999x999/fit-in/500x500/99designs-contests-attachments/109/109048/attachment_109048124" class=" w-80 mb-5"  height="180">
+                <h2 class="bg-light text-danger mt-5 py-5 font-weight-bold">WELLCOME TO AJOB <br> E-COMMERCE</h2>
                 </div>
             </div>
 
@@ -301,4 +306,4 @@
 </div>
 <!-- ................................ -->
 <!-- fooder//////////////////////////////// -->
-@endsection
+</x-forntend.master>

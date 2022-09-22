@@ -1,6 +1,7 @@
-@extends('forntend')
-@section('content')
-
+<x-forntend.master>
+<x-slot:title>
+       CONTACT US
+    </x-slot>
 <section class="mb-4 bg-light p-3">
 
 <!--Section heading-->
@@ -98,4 +99,4 @@
 </section>
 <!-- ................................ -->
 <!-- fooder//////////////////////////////// -->
-@endsection
+</x-forntend.master>

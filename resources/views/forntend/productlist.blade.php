@@ -1,5 +1,7 @@
-@extends('forntend')
-@section('content')
+<x-forntend.master>
+<x-slot:title>
+       ALL PRODUCT LIST
+    </x-slot>
 <div class="row">
     <div class="col-lg-3 col-md-6 text-center mt-2 p-2">
         <a href="#" class="btn btn-tag btn-rounded bg-success text-light" data-mdb-close="true" style="">
@@ -417,4 +419,4 @@
 </div>
 <!-- ................................ -->
 <!-- fooder//////////////////////////////// -->
-@endsection
+</x-forntend.master>
